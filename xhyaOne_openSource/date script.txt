@@ -1,0 +1,1 @@
+https://zetcode.com/csharp/datetime/#:~:text=C%23%20today's%20date&text=Now%3B%20Console.,The%20example%20prints%20today's%20date.

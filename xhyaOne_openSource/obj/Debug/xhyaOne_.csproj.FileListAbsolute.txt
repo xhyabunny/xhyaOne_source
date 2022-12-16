@@ -1,0 +1,16 @@
+F:\Users\bonni\source\repos\xhyaOne_\obj\Debug\xhyaOne_.csproj.AssemblyReference.cache
+F:\Users\bonni\source\repos\xhyaOne_\obj\Debug\xhyaOne_.csproj.SuggestedBindingRedirects.cache
+F:\Users\bonni\source\repos\xhyaOne_\obj\Debug\xhyaOne_.csproj.CoreCompileInputs.cache
+F:\Users\bonni\source\repos\xhyaOne_\bin\Debug\xhyaOne_.exe.config
+F:\Users\bonni\source\repos\xhyaOne_\bin\Debug\xhyaOne_.exe
+F:\Users\bonni\source\repos\xhyaOne_\bin\Debug\xhyaOne_.pdb
+F:\Users\bonni\source\repos\xhyaOne_\obj\Debug\xhyaOne_.exe
+F:\Users\bonni\source\repos\xhyaOne_\obj\Debug\xhyaOne_.pdb
+F:\Users\bonni\source\repos\xhyaOne_openSource\obj\Debug\xhyaOne_.csproj.AssemblyReference.cache
+F:\Users\bonni\source\repos\xhyaOne_openSource\obj\Debug\xhyaOne_.csproj.SuggestedBindingRedirects.cache
+F:\Users\bonni\source\repos\xhyaOne_openSource\obj\Debug\xhyaOne_.csproj.CoreCompileInputs.cache
+F:\Users\bonni\source\repos\xhyaOne_openSource\obj\Debug\xhyaOne_.exe
+F:\Users\bonni\source\repos\xhyaOne_openSource\obj\Debug\xhyaOne_.pdb
+F:\Users\bonni\source\repos\xhyaOne_openSource\bin\Debug\xhyaOne_.exe.config
+F:\Users\bonni\source\repos\xhyaOne_openSource\bin\Debug\xhyaOne_.exe
+F:\Users\bonni\source\repos\xhyaOne_openSource\bin\Debug\xhyaOne_.pdb
