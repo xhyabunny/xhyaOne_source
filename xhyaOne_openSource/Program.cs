@@ -56,17 +56,17 @@ to help people use your console!
 all the text will adapt itself to the text file 
 "; //help file text, this file content is loaded into a txt file at the console start
 
-            public static string version_ = "1.0"; //version number
-            public static string username_ = Environment.UserName; //gets username
+            public static string version_ = "1.0";                  //version number
+            public static string username_ = Environment.UserName;  //gets username
             public static string pcname_ = Environment.MachineName; //gets pc name
-            public static string disk_ = ""; //disk variable, its setted on the start of the app
-            public static string docsdir_ = disk_ + "\\xhyaOne\\"; // gets the xhyaOne directory with the setted disk
-            public static string method_ = "N/A"; //method (you can use this for whatever you want)
-            public static string linereader_; //main line reader
+            public static string disk_ = "";                        //disk variable, its setted on the start of the app
+            public static string docsdir_ = disk_ + "\\xhyaOne\\";  // gets the xhyaOne directory with the setted disk
+            public static string method_ = "N/A";                   //method (you can use this for whatever you want)
+            public static string linereader_;                       //main line reader
             
         }
             
-        /* loading spinner, call with "var spin = new ConsoleSpinner();" 
+        /* spinner, call with; var spin = new ConsoleSpinner();
          then do a for var:
 
             for (int i = 0; i < 8; ++i)
@@ -74,9 +74,8 @@ all the text will adapt itself to the text file
                 spin.Turn();
             }
 
-        change "8" for how many times you want the spinner to spin
-         
-        */
+        change "8" for how many times you want the spinner to spin (lol) */
+            
         public class ConsoleSpinner
         {
             int counter;
