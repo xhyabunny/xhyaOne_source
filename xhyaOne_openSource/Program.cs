@@ -1,7 +1,7 @@
 ﻿/*
         PROPERTY OF @xhyabunny
 
-        WARNING; THIS APPLICATION AND SOURCE CODE BELONGS TO @xhyabunny.orgTM
+        WARNING; THIS APPLICATION AND SOURCE CODE BELONGS TO xhyabunnyTM
         
         WE DON'T CONDONE ANY TYPE OF LEAKS OR PIRATING OF OUR SOFTWARE
         ANY KIND OF THE MENTIONED ABOVE COULD RESULT ON A LAW SUIT.
@@ -12,7 +12,7 @@
         DO NOT SELL. (this will result in legal issues)
 
         YOU HAVE BEEN WARNED.
-        -SIGNED, @xhyabunny.orgTM 2022
+        - xhyabunnyTM 2022
 */
 
 using System;
@@ -49,18 +49,21 @@ namespace xhyaOne_
         public static class globalVariables //public variables to use throughout all the console
         {
 
-            public static string helpFile = @"help file
+            public static string helpFile = @"First line
+Second line
+
+help file
 you can add new lines
 to help people use your console!
 
 all the text will adapt itself to the text file 
 "; //help file text, this file content is loaded into a txt file at the console start
 
-            public static string version_ = "1.0";                  //version number
+            public static string version_ = "1.6";                  //version number
             public static string username_ = Environment.UserName;  //gets username
             public static string pcname_ = Environment.MachineName; //gets pc name
-            public static string disk_ = "";                        //disk variable, its setted on the start of the app
-            public static string docsdir_ = disk_ + "\\xhyaOne\\";  // gets the xhyaOne directory with the setted disk
+            public static string disk_ = "";                        //disk variable, set on the start of the app
+            public static string docsdir_ = disk_ + "\\xhyaOne\\";  // gets the xhyaOne directory with the set disk
             public static string method_ = "N/A";                   //method (you can use this for whatever you want)
             public static string linereader_;                       //main line reader
             
@@ -74,7 +77,7 @@ all the text will adapt itself to the text file
                 spin.Turn();
             }
 
-        change "8" for how many times you want the spinner to spin (lol) */
+        change "8" for how many times you want the spinner to spin */
             
         public class ConsoleSpinner
         {
@@ -133,7 +136,7 @@ all the text will adapt itself to the text file
 
             public void HelpTip()
             {
-                //use this function when someone types any command wrongly
+                //use this function when someone types any command in a wrong way but said command contains a help tip
                 errorMessage();
                 Console.Write("user input error > wrong command");
                 Console.BackgroundColor = ConsoleColor.White;
@@ -150,6 +153,8 @@ all the text will adapt itself to the text file
                 Console.Write(" for help");
                 errorNewLine_();
             }
+
+                //add more error cases here
 
         }
 
@@ -368,7 +373,7 @@ all the text will adapt itself to the text file
                 Directory.CreateDirectory(globalVariables.docsdir_);
             }
 
-            //dumb spinner thing
+            //SPINNER THING
             for (int i = 0; i < 8; ++i)
             {
                 spin.Turn();
@@ -378,7 +383,7 @@ all the text will adapt itself to the text file
 
             Console.Clear();
 
-            //MAKE SHORTCUT
+            //MAKE DESKTOP SHORTCUT
             var dir = Environment.GetFolderPath(Environment.SpecialFolder.DesktopDirectory);
             string path = System.Reflection.Assembly.GetExecutingAssembly().Location;
 
